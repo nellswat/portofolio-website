@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Saya</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="#headline">Home</a></li>
+            <li><a href="#data-pribadi">Data Pribadi</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#pendidikan">Pendidikan</a></li>
+            <li><a href="#hobi">Hobi</a></li>
+            <li><a href="#contact">Kontak</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Headline -->
+        <section id="headline">
+            <h1>Selamat Datang di Portfolio Saya</h1>
+            <p>Saya adalah seorang web developer yang selalu bersemangat untuk belajar dan berkembang.</p>
+        </section>
+
+        <!-- Foto dan Data Pribadi -->
+        <section id="data-pribadi">
+            <img src="foto-profil.jpg" alt="Foto Profil" class="foto-profil">
+            <h2>Data Pribadi</h2>
+            <p>Nama: John Doe</p>
+            <p>Alamat: Jakarta, Indonesia</p>
+            <p>Email: johndoe@email.com</p>
+        </section>
+
+        <!-- Skills -->
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML & CSS</li>
+                <li>JavaScript</li>
+                <li>PHP</li>
+                <li>React</li>
+                <li>Node.js</li>
+            </ul>
+        </section>
+
+        <!-- Pendidikan -->
+        <section id="pendidikan">
+            <h2>Pendidikan</h2>
+            <p>Sarjana Teknik Informatika - Universitas Indonesia (2015-2019)</p>
+            <p>Bootcamp Web Development - XYZ Academy (2020)</p>
+        </section>
+
+        <!-- Penghargaan (Optional) -->
+        <section id="penghargaan">
+            <h2>Penghargaan</h2>
+            <ul>
+                <li>Pemenang Hackathon Web Development 2021</li>
+                <li>Penghargaan Karyawan Terbaik - Perusahaan ABC (2022)</li>
+            </ul>
+        </section>
+
+        <!-- Hobi -->
+        <section id="hobi">
+            <h2>Hobi</h2>
+            <ul>
+                <li>Fotografi</li>
+                <li>Memasak</li>
+                <li>Travelling</li>
+            </ul>
+        </section>
+
+        <!-- Form Kontak -->
+        <section id="contact">
+            <h2>Kontak</h2>
+            <form action="submit_form.php" method="POST">
+                <label for="name">Nama:</label>
+                <input type="text" id="name" name="name" required><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+                <label for="message">Pesan:</label>
+                <textarea id="message" name="message" required></textarea><br><br>
+                <button type="submit">Kirim Pesan</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 John Doe. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

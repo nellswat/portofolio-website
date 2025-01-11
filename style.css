@@ -1,0 +1,198 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content */
+main {
+    padding: 20px;
+}
+
+/* Headline */
+#headline {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#headline h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+#headline p {
+    font-size: 18px;
+}
+
+/* Foto dan Data Pribadi */
+#data-pribadi {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.foto-profil {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+#data-pribadi h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#data-pribadi p {
+    font-size: 18px;
+}
+
+/* Skills */
+#skills {
+    margin-bottom: 40px;
+}
+
+#skills h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#skills ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#skills ul li {
+    font-size: 18px;
+}
+
+/* Pendidikan */
+#pendidikan {
+    margin-bottom: 40px;
+}
+
+#pendidikan h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#pendidikan p {
+    font-size: 18px;
+}
+
+/* Penghargaan */
+#penghargaan {
+    margin-bottom: 40px;
+}
+
+#penghargaan h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#penghargaan ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#penghargaan ul li {
+    font-size: 18px;
+}
+
+/* Hobi */
+#hobi {
+    margin-bottom: 40px;
+}
+
+#hobi h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#hobi ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#hobi ul li {
+    font-size: 18px;
+}
+
+/* Form Kontak */
+#contact form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#contact label {
+    font-size: 18px;
+}
+
+#contact input, #contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#contact button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#contact button:hover {
+    background-color: #555;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 40px;
+}
+
+footer p {
+    font-size: 16px;
+}
